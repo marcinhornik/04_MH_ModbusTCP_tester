@@ -1,0 +1,141 @@
+
+
+body {
+
+  overflow-y: hidden;
+}
+
+#roletyPNG {
+  padding: 0px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 100px;
+  left: 5px;
+  width: 492px;
+  height: 314px;
+
+}
+
+  #textH2 {
+    padding: 0px;
+    border: 0px solid black;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    font-size: 28px;
+}
+
+
+#button1 {
+
+  position: absolute;
+  top:550px;
+  left: 5px;
+}
+
+#button2 {
+
+  position: absolute;
+  top:500px;
+  left: 80px;
+  font-size: 28px;
+  color: red;
+}
+
+
+
+#testInProcess {
+
+  position: absolute;
+  top:577px;
+  left: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+#button3 {
+
+  position: absolute;
+  top:75px;
+  left: 440px;
+}
+
+#button4 {
+
+  position: absolute;
+  top:75px;
+  left: 390px;
+}
+
+#button5 {
+
+  position: absolute;
+  top:75px;
+  left: 340px;
+}
+
+#button6 {
+
+  position: absolute;
+  top:75px;
+  left: 295px;
+}
+
+#button7 {
+
+  position: absolute;
+  top:75px;
+  left: 245px;
+}
+
+#button8 {
+
+  position: absolute;
+  top:75px;
+  left: 195px;
+}
+
+#button9 {
+
+  position: absolute;
+  top:75px;
+  left: 145px;
+}
+
+#button10 {
+
+  position: absolute;
+  top:75px;
+  left: 100px;
+}
+
+#button11 {
+
+  position: absolute;
+  top:420px;
+  left: 305px;
+}
+
+#button12 {
+
+  position: absolute;
+  top:420px;
+  left: 430px;
+}
+
+#ipAddress {
+
+  position: absolute;
+  top:225px;
+  left: 145px;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+
+}
