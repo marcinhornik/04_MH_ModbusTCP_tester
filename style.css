@@ -34,29 +34,19 @@ body {
 #button1 {
 
   position: absolute;
-  top:550px;
+  top:50px;
   left: 5px;
 }
 
 #button2 {
 
   position: absolute;
-  top:500px;
+  top:50px;
   left: 80px;
-  font-size: 28px;
-  color: red;
+
 }
 
 
-
-#testInProcess {
-
-  position: absolute;
-  top:577px;
-  left: 10px;
-  font-size: 18px;
-  color: red;
-}
 
 #button3 {
 
@@ -128,10 +118,10 @@ body {
   left: 430px;
 }
 
-#ipAddress {
+#viewResult {
 
   position: absolute;
-  top:225px;
+  top:525px;
   left: 145px;
   z-index: 1;
   font-size: 40px;
