@@ -5,42 +5,33 @@
 <head>
   <meta charset="utf-8">
 
-  <title>MH Modbus TCP _test</title>
+  <title>MH Modbus TCP tester</title>
 
   <meta name="Marcin Hornik">
 
-<script  src="http://localhost:35729/livereload.js" type="text/javascript"></script>
+  <script src="http://localhost:35729/livereload.js" type="text/javascript"></script>
   <script language="javascript" src="ASCI_conversion.js" type="text/javascript"></script>
   <script language="javascript" src="ButtonComments.js" type="text/javascript"></script>
-<link rel="Stylesheet" type="text/css" href="style.css" />
+  <link rel="Stylesheet" type="text/css" href="style.css" />
 
 </head>
-
 <body>
 
-
-  <h2>MH Modbus TCP _test</h2>
-
+  <div id="textH2">Modbus TCP tester  --- by MH ---</div>
+  <div id="ipAddressDiv">Modbus TCP IP Address: <input type="text" id="ipAddress" size="10" value="192.168.0.3">:502</div>
+  <!-- <div id="ipPortDiv">Modbus TCP Port Number: <input type="text" id="ipPort" size="3" value="502"></div> -->
   <button id="button1" onmousedown="realy0On()" onmouseup="realy0Off()">test on/off</button>
-  <br><br>
   <button id="button2" onClick="hex2a('000100000006010600010001')">conversion  hex2ascii</button>
-
-
-  <br><br>
   <button id="button3" onClick="a2hex()">conversion  ascii2hex</button>
-  <button id="button4" onmousedown="W0002()" onmouseup="W0000()">S2</button>
-  <button id="button5" onmousedown="W0004()" onmouseup="W0000()">S3</button>
-  <button id="button6" onmousedown="W0008()" onmouseup="W0000()">S4</button>
-  <button id="button7" onmousedown="W0016()" onmouseup="W0000()">S5</button>
-  <button id="button8" onmousedown="W0032()" onmouseup="W0000()">S6</button>
-  <button id="button9" onmousedown="W0064()" onmouseup="W0000()">S7</button>
-  <button id="button10" onmousedown="W0128()" onmouseup="W0000()">S8</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <button id="button10" onmousedown="W11()" onmouseup="W14()">S9</button>
-  <button id="button10" onmousedown="W12()" onmouseup="W14()">S10</button>
+  <div id="button4">Horlding Register Number: <input type="text" id="regNumberButton4" size="2" value="1"> Value to write: <input type="text" id="valueButton4" size="1" value="1"> <button  onmousedown="W0002()" >Write</button><span id="button4Status"></span></div>
+  <div id="button5">Horlding Register Number: <input type="text" id="regNumberButton5" size="2" value="1"> Value to write: <input type="text" id="valueButton5" size="1" value="0"> <button  onmousedown="W0004()" >Write</button><span id="button5Status"></span></div>
+  <div id="button6">Horlding Register Number: <input type="text" id="regNumberButton6" size="2" value="2"> Value to write: <input type="text" id="valueButton6" size="1" value="1"> <button  onmousedown="W0004()" >Write</button><span id="button6Status"></span></div>
+  <div id="button7">Horlding Register Number: <input type="text" id="regNumberButton7" size="2" value="2"> Value to write: <input type="text" id="valueButton7" size="1" value="0"> <button  onmousedown="W0004()" >Write</button><span id="button7Status"></span></div>
 
-<div id="viewResult">
-  sdasdas
-</div>
+  <div id="button8"> Horlding Register Number: <input type="text" id="regNumber" size="2" value="1"> Value: <span id="button8Status"></span> <button  onClick="readRegistervalue()">Read</button></div>
+
+
+  <div id="viewResult">result</div>
 
 
 </body>

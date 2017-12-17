@@ -34,15 +34,15 @@ body {
 #button1 {
 
   position: absolute;
-  top:50px;
+  top:350px;
   left: 5px;
 }
 
 #button2 {
 
   position: absolute;
-  top:50px;
-  left: 80px;
+  top:370px;
+  left: 5px;
 
 }
 
@@ -51,50 +51,50 @@ body {
 #button3 {
 
   position: absolute;
-  top:75px;
-  left: 440px;
+  top:380px;
+  left: 5px;
 }
 
 #button4 {
 
   position: absolute;
-  top:75px;
-  left: 390px;
+  top:160px;
+  left: 5px;
 }
 
 #button5 {
 
   position: absolute;
-  top:75px;
-  left: 340px;
+  top:190px;
+  left: 5px;
 }
 
 #button6 {
 
   position: absolute;
-  top:75px;
-  left: 295px;
+  top:220px;
+  left: 5px;
 }
 
 #button7 {
 
   position: absolute;
-  top:75px;
-  left: 245px;
+  top:250px;
+  left: 5px;
 }
 
 #button8 {
 
   position: absolute;
-  top:75px;
-  left: 195px;
+  top:120px;
+  left: 5px;
 }
 
 #button9 {
 
   position: absolute;
   top:75px;
-  left: 145px;
+  left: 5px;
 }
 
 #button10 {
@@ -127,5 +127,24 @@ body {
   font-size: 40px;
   font-weight: bold;
   color: red;
+}
+
+#ipAddressDiv{
+
+  position: absolute;
+  top:80px;
+  left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+#ipPortDiv{
+
+  position: absolute;
+  top:80px;
+  left: 300px;
+  font-size: 16px;
+  font-weight: bold;
 
 }
