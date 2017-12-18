@@ -22,12 +22,12 @@
   <div id="ipAddressDiv">Modbus TCP IP Address: <input type="text" id="ipAddress" size="10" value="192.168.0.3">:502</div>
   <!-- <div id="ipPortDiv">Modbus TCP Port Number: <input type="text" id="ipPort" size="3" value="502"></div> -->
   <!-- <button id="button1" onmousedown="realy0On()" onmouseup="realy0Off()">test on/off</button>-->
-  <button id="button2" onClick="hex2a(hexx)">conversion  hex2ascii</button>  <!-- przekazanie argumentu ze zmeinnej hexx do funkcji hex2a -->
-  <button id="button3" onClick="a2hex(ascii)">conversion  ascii2hex</button>
-  <div id="button4">Horlding Register Number: <input type="text" id="regNumberButton4" size="2" value="1"> Value to write: <input type="text" id="valueButton4" size="1" value="1"> <button onmousedown="W0002()">Write</button><span id="button4Status"></span></div>
-  <div id="button5">Horlding Register Number: <input type="text" id="regNumberButton5" size="2" value="1"> Value to write: <input type="text" id="valueButton5" size="1" value="0"> <button onmousedown="W0004()">Write</button><span id="button5Status"></span></div>
-  <div id="button6">Horlding Register Number: <input type="text" id="regNumberButton6" size="2" value="2"> Value to write: <input type="text" id="valueButton6" size="1" value="1"> <button onmousedown="W0004()">Write</button><span id="button6Status"></span></div>
-  <div id="button7">Horlding Register Number: <input type="text" id="regNumberButton7" size="2" value="2"> Value to write: <input type="text" id="valueButton7" size="1" value="0"> <button onmousedown="W0004()">Write</button><span id="button7Status"></span></div>
+  <button id="button2" onClick="hex2aTest(hexxTest)">conversion  hex2ascii</button>  <!-- przekazanie argumentu ze zmeinnej hexx do funkcji hex2a -->
+  <button id="button3" onClick="a2hexTest(asciiTest)">conversion  ascii2hex</button>
+  <div id="button4">Horlding Register Number: <input type="text" id="regNumberButton4" size="2" value="1"> Value to write: <input type="text" id="valueButton4" size="1" value="1"> <button onmousedown="ipRead(), hex2a(hexx), regWrite(str)">Write</button><span id="button4Status"></span></div>
+  <div id="button5">Horlding Register Number: <input type="text" id="regNumberButton5" size="2" value="2"> Value to write: <input type="text" id="valueButton5" size="1" value="1"> <button onmousedown="ipRead(), hex2a(hexx), regWrite(str)">Write</button><span id="button5Status"></span></div>
+  <div id="button6">Horlding Register Number: <input type="text" id="regNumberButton6" size="2" value="3"> Value to write: <input type="text" id="valueButton6" size="1" value="1"> <button onmousedown="ipRead(), hex2a(hexx), regWrite(str)">Write</button><span id="button6Status"></span></div>
+  <div id="button7">Horlding Register Number: <input type="text" id="regNumberButton7" size="2" value="4"> Value to write: <input type="text" id="valueButton7" size="1" value="1"> <button onmousedown="ipRead(), hex2a(hexx), regWrite(str)">Write</button><span id="button7Status"></span></div>
 
   <div id="button8"> <b>First</b> Horlding Register Number: <input type="text" id="firstRegNumber" size="2" value="1"> <b>Last</b> Horlding Register Number: <input type="text" id="firstRegNumber" size="2" value="1"> <button onClick="readRegistervalue()">Read</button></div>
   <span id="button8Status"></span>
