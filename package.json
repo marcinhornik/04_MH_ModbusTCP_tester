@@ -1,0 +1,23 @@
+{
+  "name": "04_mh_modbustcp_tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ASCI_conversion.js",
+  "dependencies": {
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinhornik/04_MH_ModbusTCP_tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcinhornik/04_MH_ModbusTCP_tester/issues"
+  },
+  "homepage": "https://github.com/marcinhornik/04_MH_ModbusTCP_tester#readme"
+}
