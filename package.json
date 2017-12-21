@@ -4,7 +4,9 @@
   "description": "",
   "main": "ASCI_conversion.js",
   "dependencies": {
-    "ping": "^0.2.2"
+    "chrome": "^0.1.0",
+    "ping": "^0.2.2",
+    "requirejs": "^2.3.5"
   },
   "devDependencies": {},
   "scripts": {
