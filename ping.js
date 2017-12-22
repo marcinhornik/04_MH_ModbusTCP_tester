@@ -1,11 +1,15 @@
 
+let msg;
+
 function ping(){
+  document.getElementById("connected").innerHTML = "...waiting for status";
+
 var ping = require('ping');
 
 var hosts = ['192.168.0.3'];
 hosts.forEach(function(host){
     ping.sys.probe(host, function(isAlive){
-        var msg = isAlive ? 'host ' + host + ' is alive' : 'host ' + host + ' is dead';
+        msg = isAlive ? 'host ' + host + ' is alive' : 'host ' + host + ' is dead';
         console.log(msg);
 
 if (msg == "host 192.168.0.3 is alive") document.getElementById("connected").innerHTML = "<span style=\"color:green\">" +"CONNECTED"+ "</span>"; // konkretny kolor tekstu w span style
